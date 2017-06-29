@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ALL_BLOB] (
+  [uid] [int] IDENTITY,
+  [c_image] [image] NULL,
+  CONSTRAINT [PK_ALL_BLOB] PRIMARY KEY CLUSTERED ([uid])
+)
+ON [PRIMARY]
+TEXTIMAGE_ON [PRIMARY]
+GO

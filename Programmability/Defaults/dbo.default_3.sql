@@ -1,0 +1,4 @@
+﻿SET QUOTED_IDENTIFIER OFF
+GO
+CREATE DEFAULT [dbo].[default_3] AS 'test_3';
+GO
